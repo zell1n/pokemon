@@ -13,7 +13,7 @@ var jsFiles = ['*.js', 'src/**/*.js'];
 var mainJs = './src/main.js';
 var html = './src/*.html';
 var css = ['./node_modules/bootstrap/dist/css/bootstrap.min.css', './node_modules/bootstrap/dist/css/bootstrap-theme.min.css', './src/app.css'];
-var images = './src/images/*'
+var images = './src/images/*';
 
 var dist = './dist';
 

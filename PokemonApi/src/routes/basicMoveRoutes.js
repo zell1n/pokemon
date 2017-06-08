@@ -12,4 +12,14 @@ BasicMoveRouter.route('/all')
         });
     });
 
+BasicMoveRouter.route('/seedBasicMoves')
+    .put(function(req, res){
+        seedData.readSpreadsheetToJson('./src/data/pokemon_go_spreadsheet.xlsx', './src/data/basicMoves.json', 'Basic Moves', false, function(){
+            seedData.writeBasicMovesToDb('./src/data/basicMoves.json', function(){
+                console.log('Pokemon batch written to db.');
+                res.status(204).send();
+            });
+        });
+    });
+
 module.exports = BasicMoveRouter;
