@@ -1,0 +1,37 @@
+{
+  "name": "pokemon_app",
+  "version": "1.0.0",
+  "description": "Pokemon GO web application",
+  "main": "./src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Victor Zellin",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "browserify": "^14.3.0",
+    "eslint": "^3.19.0",
+    "eslint-plugin-react": "^7.0.1",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-eslint": "^3.0.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-open": "^2.0.0",
+    "gulp-sequence": "^0.4.6",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "axios": "^0.16.1",
+    "bootstrap": "^3.3.7",
+    "flux": "^2.0.3",
+    "jquery": "^3.2.1",
+    "loadash": "0.0.1",
+    "react": "^0.13.3",
+    "react-router": "^0.13.3",
+    "underscore": "^1.8.3"
+  }
+}

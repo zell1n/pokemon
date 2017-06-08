@@ -1,0 +1,16 @@
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 80px;
+    height: 80px;
+    padding-top: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    padding-top: 12px;
+}
+
+.img-resize {
+    height: 50px;
+}
